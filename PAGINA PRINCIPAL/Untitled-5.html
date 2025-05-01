@@ -1,0 +1,128 @@
+html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Tecknos Design</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #fdb415;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            color: #000000;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .product {
+            background-color: rgb(204, 148, 204);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            font-size: 1.8em;
+            color: #333;
+        }
+
+        .product p {
+            font-size: 1.3em;
+            color: #555;
+        }
+
+        footer {
+            background-color: #fdb415;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tecknos Design</h1>
+    <p>Reparación de Computadoras, Celulares y Venta de Electrodomésticos</p>
+</header>
+
+<section id="products">
+    <h2>Productos</h2>
+    <div class="products">
+        <!-- Producto 1 -->
+        <div class="product">
+            <img src="producto1.png" alt="Computadora Portátil">
+            <h3>Computadora Portátil</h3>
+            <p>Computadora portátil de última generación, ideal para trabajo y entretenimiento.</p>
+        </div>
+        <!-- Producto 2 -->
+        <div class="product">
+            <img src="producto2.png" alt="Celulares">
+            <h3>Celulares</h3>
+            <p>Celulares con cámara de alta resolución y gran rendimiento.</p>
+        </div>
+        <!-- Producto 3 -->
+        <div class="product">
+            <img src="producto3.png" alt="Smart TV 50">
+            <h3>Smart TV 50"</h3>
+            <p>Televisor de 50 pulgadas con resolución 4K y funciones inteligentes.</p>
+        </div>
+        <!-- Producto 4 -->
+        <div class="product">
+            <img src="producto4.png" alt="Conectores">
+            <h3>Conectores</h3>
+            <p>Conectores para cables utp.</p>
+        </div>
+        <!-- Producto 5 -->
+        <div class="product">
+            <img src="producto5.png" alt="Impresoras">
+            <h3>Impresoras</h3>
+            <p>Impresoras de muy buena calidad.</p>
+        </div>
+        <!-- Producto 6 -->
+        <div class="product">
+            <img src="producto6.png" alt="USB">
+            <h3>USB</h3>
+            <p>USB de 8 GB, 16 GB,32 GB, 64 GB, 128 GB, 256 GB.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tecknos Design - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
